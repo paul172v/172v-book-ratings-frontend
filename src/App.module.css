@@ -1,0 +1,97 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/public/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: brown;
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .header {
+    flex-direction: column;
+    height: 12rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.title {
+  color: white;
+  margin-left: 4rem;
+}
+
+.menu-wrapper {
+  margin-right: 4rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 1320px) {
+  .menu-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu-wrapper {
+    display: none;
+  }
+}
+
+.btn {
+  display: flex;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+}
+
+.btn-menu-wrapper-mobile-toggle {
+  display: none;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .btn-menu-wrapper-mobile-toggle {
+    display: flex;
+  }
+}
+
+.menu-wrapper-mobile {
+  display: none;
+  background-color: brown;
+  align-items: center;
+  height: 99vh;
+}
+
+.menu-wrapper-mobile .btn {
+  width: 14rem;
+  margin: 1rem 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu-wrapper-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.error-message {
+  font-size: 2rem;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}

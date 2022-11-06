@@ -1,0 +1,38 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.u-row {
+  display: flex;
+}
+
+.label-title {
+  color: white;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.input-title {
+}
+
+.btn-submit {
+  font-size: 1.4rem;
+  width: 6rem;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.error-message {
+  color: white;
+  font-size: 3rem;
+  background-color: brown;
+  padding: 2rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

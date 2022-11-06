@@ -1,0 +1,86 @@
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  grid-template-rows: 2rem 2rem 2rem 2rem 8rem 2rem;
+  gap: 2rem;
+
+  margin-top: 2rem;
+}
+
+.u-row {
+  display: flex;
+}
+
+.label-title-to-update,
+.label-title,
+.label-author,
+.label-rating,
+.label-comments {
+  color: white;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.input-comments {
+  height: 8rem;
+}
+
+.btn-submit {
+  font-size: 1.4rem;
+  width: 6rem;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.error-message {
+  color: white;
+  font-size: 3rem;
+  background-color: brown;
+  padding: 2rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-top: 6rem;
+}
+
+.message-wrapper {
+  background-color: brown;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: 1px solid white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.message-text {
+  color: white;
+  font-size: 2rem;
+}
+
+.btn-posted {
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  form input,
+  form textarea {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  form input,
+  form textarea {
+    width: 20rem;
+  }
+}
