@@ -38,3 +38,15 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+
+.btn-submit {
+  background-color: rgb(224, 123, 28);
+  width: 12rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+}

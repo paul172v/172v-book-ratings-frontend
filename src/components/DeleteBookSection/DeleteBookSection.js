@@ -46,7 +46,7 @@ const DeleteBookSection = () => {
           </div>
           <input
             type="submit"
-            value="Submit"
+            value="Delete"
             className={classes["btn-submit"]}
           />
         </form>
